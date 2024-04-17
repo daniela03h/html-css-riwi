@@ -1,0 +1,153 @@
+/*Nombre Completo: Daniela Londoño Herrera
+Clan: Dell
+fecha: 03/04/2024*/
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --verde-bosque: #1A5126;
+    --verde-claro: #8FBF5F;
+    --azul-claro: #5CB3FF;
+    --beige: #F3E9DC;
+    --marron-tierra: #B18F6A;
+    --blanco: #FFFFFF;
+}
+
+.contenedor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+}
+
+.lista-contenido {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.lista-contenido li a {
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+
+.main {
+    background-color: var(--beige);
+}
+
+.contenedor-presentacion {
+    background-image: url(../../public/img/imagen1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+    color: var(--blanco);
+    height: 250px;
+    padding: 50px 90px 0 90px;
+}
+
+.titulo-presentacion {
+    margin-bottom: 10px;
+}
+
+
+.parrafo-presentacion {
+    font-weight: bold;
+}
+
+.contenedor-lugares {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.contenedor-informacion {
+    text-align: center;
+    width: 30%;
+}
+
+.titulo {
+    color: var(--verde-bosque);
+    margin: 10px 0;
+}
+
+.imagen-principal {
+    width: 500px;
+    height: 400px;
+}
+
+.contenedor-imagen {
+    display: flex;
+    gap: 5px;
+}
+
+.imagen {
+    width: 250px;
+}
+
+.contenedor-normas {
+    padding: 30px;
+}
+
+.contenedor-descripcion-normas {
+    text-align: center;
+    color: var(--verde-bosque);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.contenedor-por-norma {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 10px;
+ justify-content: center;
+}
+
+.norma {
+    background-color: var(--verde-claro);
+    color: var(--blanco);
+    width: 380px;
+    height: 150px;
+    border-radius: 80px;
+    padding: 30px;
+    text-align: center;
+}
+
+.titulo-normal {
+    color: var(--verde-bosque);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: var(--verde-bosque);
+    color: var(--blanco);
+}
+
+.img-logo-alcaldia {
+    width: 80px;
+}
+
+.contenedor-redes {
+    text-align: center;
+}
+
+.contenedor-redes  a {
+    color: var(--blanco);
+}

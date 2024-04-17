@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 80px;
+}
+
+h2 {
+    color: blue;
+}
+
+p { 
+    color: green;
+}

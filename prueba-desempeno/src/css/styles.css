@@ -1,0 +1,281 @@
+/*Nombre Completo: Daniela Londoño Herrera
+Clan: Dell
+fecha: 09/04/2024*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Se reinician los estilos de la pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+}
+
+/* Se definen variables de entorno */
+:root {
+    --azulOscuro: #181E4B;
+    --azulClaro: #6b5cff;
+    --blanco: #F9FAFC;
+    --gris: #808080;
+    --negro: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: var(--blanco);
+}
+
+/* Se inician los estilos en el header */
+
+.barra-navegacion {
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.contenedor-logo {
+    display: flex;
+    align-items: center;
+}
+
+.simbolos {
+    width: 20px;
+    height: 20px;
+}
+
+.titulo-logo {
+    padding: 0 10px;
+    color: var(--azulOscuro);
+    font-style: italic;
+    font-size: 50px;
+}
+
+.letra-cambio-color {
+    color: var(--azulClaro);
+}
+
+.contenedor-contenido {
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor-lista-contenido {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: var(--azulOscuro);
+}
+
+.contenedor-lista-contenido li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--azulOscuro);
+}
+
+.contenedor-lista-contenido li a {
+    color: var(--azulOscuro);
+}
+
+.contenedor-botones {
+    display: flex;
+    gap: 20px;
+}
+
+.boton {
+    background-color: var(--azulClaro);
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+    color: var(--blanco);
+    font-weight: bold;
+}
+
+/* Se inician los estilos edel cuerpo de la pagina*/
+
+main {
+    padding-top: 100px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 60px;
+    margin-right: 10px;
+}
+
+.img-whatsapp {
+    width: 50px;
+}
+
+.secciones-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.contenedor-info {
+    width: 50%;
+    text-align: center;
+}
+
+.titulos {
+    color: var(--azulOscuro);
+    font-style: italic;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.imagenes {
+    border-radius: 30px;
+    width: 700px;
+}
+
+.formulario-solicitar-vehiculo {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.input {
+    border: 1px solid var(--azulClaro);
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    color: var(--gris);
+    background-color: var(--blanco);
+}
+
+.boton-grande {
+    width: 200px;
+    border: 1px solid var(--negro);
+}
+
+.contenedor-info p {
+    text-align: center;
+}
+
+.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    padding: 10px;
+    width: 60%;
+}
+
+.titulo-tabla {
+    border-bottom: 3px solid var(--azulClaro);
+    margin-right: 200px;
+}
+
+#requisitos {
+    scroll-margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contenedor-imagen-conductores {
+    text-align: center;
+}
+
+/* Se dan estilos a los requisitos*/
+
+.requisitos {
+    display: flex;
+    gap: 50px;
+    width: 80%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.requerimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.requerimientos i {
+   color: var(--azulClaro);
+   margin-bottom: 5px;
+}
+
+.requerimientos span {
+    color: var(--gris);
+ }
+
+/* Se dan estilos al formulario*/
+
+.formulario-registro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.titulo-formulario {
+    font-size: 30px;
+}
+
+.boton-registrate {
+    width: 20%;
+}
+
+/* Se dan estilos a la seccion de video y mapa*/
+#nosotros {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contenedor-nosotros {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor-video, .contenedor-mapa {
+    margin-top: 20px;
+}
+
+/* Se realizan estilos al footer */
+
+.footer {
+margin-top: 30px;
+background-color: var(--azulClaro);
+color: var(--blanco);
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 5px;
+padding: 10px 0;
+}
+
+.contenedor-redes-sociales {
+    display: flex;
+    gap: 25px;
+}
+
+.contenedor-redes-sociales a {
+    color: var(--blanco);
+    font-size: 40px;
+}
+
+.color-riwi-io {
+    color: var(--azulOscuro);
+}
